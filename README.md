@@ -6,7 +6,7 @@
 
 # About the Project:
 
-[![Screenshot (10)](https://user-images.githubusercontent.com/97881558/171418344-52e4b748-069c-4731-a37f-7788a3db02db.png)
+[![Screenshot (10)](web_page.png)
 ](https://fire-prediction-forest.herokuapp.com/)
 
 [LINK TO HEROKU APP](https://fire-prediction-forest.herokuapp.com/)
