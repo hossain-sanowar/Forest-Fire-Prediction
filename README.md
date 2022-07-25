@@ -4,13 +4,12 @@
 
 * Dataset Source: [UCI Repository](https://archive.ics.uci.edu/ml/datasets/Algerian+Forest+Fires+Dataset++#).
 
-# About the Project:
-
 [![Screenshot (10)](web_page.png)
 ](https://fire-prediction-forest.herokuapp.com/)
 
-[LINK TO HEROKU APP](https://fire-prediction-forest.herokuapp.com/)
+[Heroku App](https://fire-prediction-forest.herokuapp.com/)
 
+# About the Project:
 
 The algorithm for Machine Learning is used to anticipate Forest Fires. The dataset is obtained from the UCI data repository. The dataset consists of 244 instances that aggregate data from two Algerian regions: Bejaia in the northeast and Sidi Bel-abbes in the northwest. June through September 2012 are covered by this dataset. This dataset has 11 variables, including Temperature, Relative Humidity, Wind Speed, Rain in millimeters, Fine fuel moisture code, Drought code, Initial spread index, Fire weather index, and fire and non-fire classifications. In this project, the dataset is divided into two groups in order to train machine learning models for classification prediction and regression prediction.
 
@@ -31,4 +30,4 @@ In the last phase, a web application is built using the Flask module, HTML, and 
 [reach_linkedin]: https://www.linkedin.com/in/hossainsanowar/
 [reach_gmail]: md.sanowar21@gmail.com
 
-<p align="right">(<a href="#top">Back</a>)</p>
+<p align="right">(<a href="#top">Top</a>)</p>
