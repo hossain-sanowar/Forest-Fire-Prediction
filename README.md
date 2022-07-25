@@ -2,11 +2,8 @@
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-<br />
-<div align="center">
-  <a href="https://github.com/aravind9722">
-    <img src="https://img.icons8.com/external-flat-wichaiwi/64/undefined/external-bush-fire-climate-change-flat-wichaiwi.png" alt="Logo" width="80" height="80"/> 
-  </a>
+
+# About the Project:
 
 The algorithm for Machine Learning is used to anticipate Forest Fires. The dataset is obtained from the UCI data repository. The dataset consists of 244 instances that aggregate data from two Algerian regions: Bejaia in the northeast and Sidi Bel-abbes in the northwest. June through September 2012 are covered by this dataset. This dataset has 11 variables, including Temperature, Relative Humidity, Wind Speed, Rain in millimeters, Fine fuel moisture code, Drought code, Initial spread index, Fire weather index, and fire and non-fire classifications. In this project, the dataset is divided into two groups in order to train machine learning models for classification prediction and regression prediction.
 
@@ -23,3 +20,4 @@ Classification Machine Learning Algorithms: XGBOOST, Adaboost, RandomForest, Dec
 
 Regression Machine Learning Algorithms: XGboostRegressor, AdaBoostRegressor, Linear Regression, Lasso Regression, Ridge Regression, ElasticNet, Random Forest Regressor, DecisionTreeRegressor, K-Nearest Neighbour Regressor, Support Vector Regressor, RandomizedSearchCV, and GridSearchCV.
 
+<p align="right">(<a href="#top">Back</a>)</p>
