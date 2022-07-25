@@ -37,36 +37,36 @@
             <h3>Fire Prediction (Classification Model) </h3>
             <form action="{{ url_for('predict')}}" id="booking-form" class="booking-form" method="POST">
                 <div class="form-group">
-                    <div class="form-Temperature">
-                        <label for="Temperature">Temperature</label>
+                    <!-- <div class="form-Temperature">
+                        <label for="Temperature">22-42</label>
                         <input type="number" id="Temperature" name="Temperature" placeholder="Temperature" />
-                    </div>
+                    </div> -->
                     <div class="form-Ws">
-                        <label for="Ws">Wind speed in km/h: 6 to 29</label>
+                        <label for="Ws"> 6-29</label>
                         <input type="number" id="Ws" name="Ws" placeholder="Ws" />
                     </div>
-                    <div class="form-Rain">
-                        <label for="Rain">total day in mm: 0 to 16.8</label>
+                    <!-- <div class="form-Rain">
+                        <label for="Rain">0-16.8</label>
                         <input type="number" id="Rain" name="Rain" placeholder="Rain" />
-                    </div>
+                    </ div> -->
                     <div class="form-FFMC">
-                        <label for="FFMC"> Fine Fuel Moisture Code:28.6 to 92.5 </label>
+                        <label for="FFMC"> 28.6-92.5 </label>
                         <input type="number" id="FFMC" name="FFMC" placeholder="FFMC" />
                     </div>
                     <div class="form-DMC">
-                        <label for="DMC">Duff Moisture Code:1.1 to 65.9</label>
+                        <label for="DMC">1.1-65.9</label>
                         <input type="number" id="DMC" name="DMC" placeholder="DMC" />
                     </div>
-                    <div class="form-DC">
-                        <label for="DC"> Drought Code: 7 to 220.4</label>
+                    <!-- <div class="form-DC">
+                        <label for="DC"> 7-220.4</label>
                         <input type="number" id="DC" name="DC" placeholder="DC" />
-                    </div>
+                    </div> -->
                     <div class="form-ISI">
-                        <label for="ISI">Initial Spread Index:0 to 18.5</label>
+                        <label for="ISI">ISI:0-18.5</label>
                         <input type="number" id="ISI" name="ISI" placeholder="ISI" />
                     </div>
                     <div class="form-FWI">
-                        <label for="FWI"> Fire Weather Index: 0 to 31.1 </label>
+                        <label for="FWI"> 0-31.1 </label>
                         <input type="number" id="FWI" name="FWI" placeholder="FWI" />
                     </div>
                     <div class="form-submit">
@@ -81,40 +81,40 @@
             <form action="{{ url_for('predictR')}}" id="Reg_form" class="booking-form" method="POST">
                 <div class="form-group">
                     <div class="form-Temperature">
-                        <label for="Temperature">Temperature</label>
+                        <label for="Temperature">22-42</label>
                         <input type="number" id="Temperature" name="Temperature" placeholder="Temperature" />
                     </div>
                     <div class="form-RH">
-                        <label for="Temperature">Relative Humidity in %: 21 to 90</label>
+                        <label for="RH"> 21-90</label>
                         <input type="number" id="RH" name="RH" placeholder="RH" />
                     </div>
 
                     <div class="form-Ws">
-                        <label for="Ws">Wind speed in km/h: 6 to 29</label>
+                        <label for="Ws"> 6-29</label>
                         <input type="number" id="Ws" name="Ws" placeholder="Ws" />
                     </div>
                     <div class="form-Rain">
-                        <label for="Rain">total day in mm: 0 to 16.8</label>
+                        <label for="Rain">0-16.8</label>
                         <input type="number" id="Rain" name="Rain" placeholder="Rain" />
                     </div>
                     <div class="form-FFMC">
-                        <label for="FFMC"> Fine Fuel Moisture Code:28.6 to 92.5 </label>
+                        <label for="FFMC"> 28.6-92.5 </label>
                         <input type="number" id="FFMC" name="FFMC" placeholder="FFMC" />
                     </div>
                     <div class="form-DMC">
-                        <label for="DMC">Duff Moisture Code:1.1 to 65.9</label>
+                        <label for="DMC">1.1-65.9</label>
                         <input type="number" id="DMC" name="DMC" placeholder="DMC" />
                     </div>
                     <div class="form-DC">
-                        <label for="DC"> Drought Code: 7 to 220.4</label>
+                        <label for="DC"> 7-220.4</label>
                         <input type="number" id="DC" name="DC" placeholder="DC" />
                     </div>
                     <div class="form-ISI">
-                        <label for="ISI">Initial Spread Index:0 to 18.5</label>
+                        <label for="ISI">0-18.5</label>
                         <input type="number" id="ISI" name="ISI" placeholder="ISI" />
                     </div>
                     <div class="form-FWI">
-                        <label for="FWI"> Fire Weather Index: 0 to 31.1 </label>
+                        <label for="FWI"> 0-31.1 </label>
                         <input type="number" id="FWI" name="FWI" placeholder="FWI" />
                     </div>
                     <div class="form-submit">

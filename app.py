@@ -5,6 +5,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from app_logger import log
 from mongodb import mongodbconnection
+#from pymongo import MongoClient
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -21,6 +22,7 @@ model_R = pickle.load(R_pickle_in)
 dbcon = mongodbconnection(username='mongodb', password='12345')
 list_cursor = dbcon.getdata(dbName='FireDataML', collectionName='ml_task')
 log.info('Connected to Mongodb and data retrieved')
+
 
 # Data From MongoDB is used for Standardization
 df = pd.DataFrame(list_cursor)
