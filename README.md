@@ -3,7 +3,7 @@
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-* Dataset Source: [UCI Repository](https://archive.ics.uci.edu/ml/datasets/Algerian+Forest+Fires+Dataset++#).
+Dataset Source: [UCI Repository](https://archive.ics.uci.edu/ml/datasets/Algerian+Forest+Fires+Dataset++#).
 
 [![Screenshot (10)](web_page.png)
 ](https://fire-prediction-forest.herokuapp.com/)
