@@ -1,4 +1,5 @@
 <div id="top">Fire Prediction of Forest Area</div>
+<br>
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
