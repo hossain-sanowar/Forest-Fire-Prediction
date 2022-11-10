@@ -27,6 +27,9 @@ In the last phase, a web application is built using the Flask module, HTML, and 
 
 **Regression Machine Learning Algorithms:** XGboostRegressor, AdaBoostRegressor, Linear Regression, Lasso Regression, Ridge Regression, ElasticNet, Random Forest Regressor, DecisionTreeRegressor, K-Nearest Neighbour Regressor, Support Vector Regressor, RandomizedSearchCV, and GridSearchCV.
 
+![Important_Features:](readme_resources/important_features.png)
+![ML_Model_Prediction_Results:](readme_resources/confusion_matrix.png)
+
 <!--contact-->
 [reach_linkedin]: https://www.linkedin.com/in/hossainsanowar/
 [reach_gmail]: md.sanowar21@gmail.com
